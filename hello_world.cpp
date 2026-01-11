@@ -1,11 +1,11 @@
 #include <iostream>
-using namespace std;
 
+// Программа выводит приветствие пользователю
 int main()
 {
-    string name;
-    cout << "Enter your name: ";
-    cin >> name;
-    cout << "Hello world from " << name;
+    std::string name; // переменная для имени
+    std::cout << "Enter your name: ";
+    std::cin >> name;
+    std::cout << "Hello world from " << name; // выводим приветствие
     return 0;
 }
